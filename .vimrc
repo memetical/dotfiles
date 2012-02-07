@@ -18,7 +18,8 @@ Bundle 'snipMate'
 Bundle 'molokai'
 Bundle 'The-NERD-tree'
 Bundle 'fholgado/minibufexpl.vim'
-
+Bundle 'taglist.vim'
+Bundle 'vim-pandoc'
 filetype plugin indent on     " required! 
  "
  " Brief help
