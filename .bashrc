@@ -122,3 +122,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+
+# Added by autojump install.sh
+source /etc/profile.d/autojump.bash
