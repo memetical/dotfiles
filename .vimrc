@@ -20,6 +20,7 @@ Bundle 'The-NERD-tree'
 Bundle 'fholgado/minibufexpl.vim'
 Bundle 'taglist.vim'
 Bundle 'vim-pandoc'
+Bundle 'SuperTab-continued.'
 filetype plugin indent on     " required! 
  "
  " Brief help
@@ -103,3 +104,7 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 " automatically open and close the popup menu / preview window
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
+
+" Create a local leader, seems to be needed in pandoc to e.g. launch
+" pdfviewer, check vim-pandoc documentation
+let maplocalleader = ","

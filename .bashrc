@@ -94,13 +94,8 @@ alias agu='apt-get update'
 # Make aliases with sudo work:
 alias sudo='A=`alias` sudo  '
 
-#gcalcli aliases
-alias unical='gcalcli --cal=Klausur --cal=Abgaben --details --width=15'
-alias classcal='gcalcli --cal=Stundenplan --details --width=15' 
-alias mycal='gcalcli --cal=gdroidjt@googlemail.com --details --width=15'
-alias zencal='gcalcli --cal=Zen --details --width=15' 
-alias nerdcal='gcalcli --cal=NerdKalender --details --width=15' 
-alias allcal='gcalcli --cal=Klausur --cal=Abgaben --cal=Stundenplan --cal=gdroidjt@googlemail.com --details --width=15'                                            
+
+alias hc='hamster-cli'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
